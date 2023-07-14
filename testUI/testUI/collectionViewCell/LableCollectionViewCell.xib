@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="LableCollectionViewCell" id="gTV-IL-0wX" customClass="LableCollectionViewCell" customModule="testUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="133"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liH-K8-F86">
+                        <rect key="frame" x="10" y="0.0" width="322" height="133"/>
+                        <mutableString key="text">Kathryn Newton (born February 8, 1997) is an American actress. She is known for her starring roles as Louise Brooks in the CBS comedy series Gary Unmarried (2008–2010), Abigail Carlson in the HBO mystery drama series Big Little Lies (2017–2019), and Allie Pressman in the Netflix teen drama series The Society (2019). She is also known for portraying the older versions of Claire Novak in The CW dark fantasy series Supernatural (2014–2018) and Joanie Clark in the AMC period drama series Halt and Catch Fire (2016–2017).</mutableString>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="liH-K8-F86" secondAttribute="bottom" id="5sn-Hh-QJW"/>
+                <constraint firstAttribute="trailing" secondItem="liH-K8-F86" secondAttribute="trailing" id="B96-ea-Vb8"/>
+                <constraint firstItem="liH-K8-F86" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RXX-Du-Vcv"/>
+                <constraint firstItem="liH-K8-F86" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="fRH-aN-TbY"/>
+            </constraints>
+            <size key="customSize" width="332" height="133"/>
+            <connections>
+                <outlet property="lblInfor" destination="liH-K8-F86" id="gYQ-w4-GmU"/>
+            </connections>
+            <point key="canvasLocation" x="245.80152671755724" y="17.95774647887324"/>
+        </collectionViewCell>
+    </objects>
+</document>
